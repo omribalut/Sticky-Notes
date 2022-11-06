@@ -1,0 +1,157 @@
+body {
+    background-image: url(https://img.freepik.com/free-photo/background-brown-cork-board-texture-close-up_77190-2560.jpg?size=626&ext=jpg);
+    background-size: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+textarea {
+    font-size: 20px;
+    background: transparent;
+    height: 150px;
+    width: 170px;
+    border: 1px solid gray;
+}
+
+.font {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    color: indigo;
+    text-align: center;
+}
+
+.container-inputs {
+    background-image: url(https://previews.123rf.com/images/kodamatobi/kodamatobi1605/kodamatobi160500018/58294244-notebook-paper-background.jpg);
+    background-size: 100% 100%;
+    border: 1px solid gray;
+    width: 300px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 17px;
+}
+
+.pad {
+    padding: 3px;
+    margin: 3px;
+    position: relative;
+}
+
+.caption {
+    width: 80px;
+    display: inline-block;
+}
+
+.item-details {
+    display: inline-block;
+    border: 1px solid grey;
+    width: 180px;
+    padding: 3px;
+    margin: 3px;
+    text-align: center;
+}
+
+[for="todoText"] {
+    position: relative;
+    bottom: 60px;
+}
+
+.btn {
+    border: 1px solid gray;
+}
+
+.main {
+    font-size: 22px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background-image: url(https://i.pinimg.com/originals/d2/48/9c/d2489c52612bbda488eff80b33a6666a.png);
+    border-radius: 25px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: 100%;
+    padding: 50px;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.main:hover .deleteX {
+    opacity: 1;
+}
+
+.main .deleteX {
+    opacity: 0;
+    transition: 1s;
+}
+
+.mission {
+    overflow-wrap: break-word;
+    overflow: auto;
+    height: 70%;
+    left: 20px;
+    top: 35px;
+}
+
+.hour-div {
+    width: 350px;
+    left: 20px;
+    bottom: 25px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.deleteX {
+    top: 30px;
+    right: 58px;
+    display: flex;
+    justify-content: flex-end;
+    opacity: 0;
+}
+
+.deleteX:hover {
+    opacity: 1;
+}
+
+#todoDate {
+    border-radius: 17px;
+    width: 147px;
+    background-color: navajowhite;
+}
+
+#todoHour {
+    border-radius: 17px;
+    width: 147px;
+    background-color: navajowhite;
+}
